@@ -445,7 +445,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🧾 ᴍᴇᴍᴇs 🧾', callback_data='memes'),
             ],[
             InlineKeyboardButton('🔖 ᴘᴀsᴛᴇ 🔖', callback_data='paste'),
-            InlineKeyboardButton('📟 ᴘᴀssᴡᴏʀᴅ📟', callback_data='genpassword'),
+            InlineKeyboardButton('📟 ᴘᴀssᴡᴏʀᴅ', callback_data='genpassword'),
             InlineKeyboardButton('📌 ᴘɪɴ 📌', callback_data='pin'),
             ],[
             InlineKeyboardButton('🎧 ᴘᴜʀɢᴇ 🎧', callback_data='purge'),
@@ -454,7 +454,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('⭕ sʜᴀʀᴇ ᴛx⭕', callback_data='sharetext'),
             InlineKeyboardButton('🎶 ᴍᴜsɪᴄ 🎶', callback_data='music'),
-            InlineKeyboardButton('📲ᴛᴛ-sᴘᴇᴇᴄʜ📳', callback_data='tts'),
+            InlineKeyboardButton('🎵 ᴛᴛ-sᴘᴇᴇᴄʜ', callback_data='tts'),
             ],[
             InlineKeyboardButton('📋 ᴛɢʀᴀᴘʜ 📋', callback_data='tgraph'),
             InlineKeyboardButton('🔸sʜᴏʀᴛɴᴇʀ🔹', callback_data='shortner'),
@@ -956,8 +956,8 @@ async def advantage_spell_chok(msg):
                     callback_data=f"spolling#{user}#{k}",
                 )
             ] for k, movie in enumerate(movielist)]
-    btn.append([InlineKeyboardButton(text="✗ Close ✗", callback_data=f'spolling#{user}#close_spellcheck')])
-    m = await msg.reply(f"Hey, {msg.from_user.mention}!\nI couldn't find anything related to that\nDid you mean any one of these?", reply_markup=InlineKeyboardMarkup(btn))
+    btn.append([InlineKeyboardButton(text="⛔ ᴄʟᴏsᴇ ⛔", callback_data=f'spolling#{user}#close_spellcheck')])
+    m = await msg.reply(f"𝐈 𝐜𝐨𝐮𝐥𝐝𝐧'𝐭 𝐟𝐢𝐧𝐝 𝐚𝐧𝐲𝐭𝐡𝐢𝐧𝐠 𝐫𝐞𝐥𝐚𝐭𝐞𝐝\n𝐭𝐨 𝐭𝐡𝐚𝐭\n𝐃𝐢𝐝 𝐲𝐨𝐮 𝐦𝐞𝐚𝐧 𝐚𝐧𝐲 𝐨𝐧𝐞 𝐨𝐟 𝐭𝐡𝐞𝐬𝐞 👇?\n𝐂𝐥𝐢𝐜𝐤 𝐨𝐧 𝐌𝐨𝐯𝐢𝐞 𝐧𝐚𝐦𝐞 𝐢𝐟 𝐲𝐨𝐮𝐫\n𝐦𝐨𝐯𝐢𝐞 𝐧𝐚𝐦𝐞 𝐨𝐧 𝐛𝐞𝐥𝐨𝐰 𝐥𝐢𝐬𝐭.👇\n\n<b>നിങ്ങൾ ഉദ്ദേശിച്ച മൂവി\nതാഴെ കാണുന്നതിൽ\nഉണ്ടോ?👇.\nഉണ്ടെങ്കിൽ അതിൽ\nക്ലിക്ക്\nചെയ്യുക.\nഇല്ലങ്കിൽ സ്പെല്ലിംഗ്\nഗൂഗിളിൽ നോക്കി\nഒന്നോടെ വർഷവും കൂട്ടി\nടൈപ്പ് ചെയ്യുക👇", reply_markup=InlineKeyboardMarkup(btn))
     await asyncio.sleep(20)
     await m.delete()
 
