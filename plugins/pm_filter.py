@@ -37,15 +37,15 @@ async def next_page(bot, query):
 
     ident, req, key, offset = query.data.split("_")
     if int(req) not in [query.from_user.id, 0]:
-        return await query.answer(f"⚠️ Hey, {query.from_user.first_name}! Search Your Own File, Don't Click Others Results 😬", show_alert=True)
+        return await query.answer(f"വിളച്ചിൽ എടുകുന്നോ കുഞ്ഞിപുഴു നിനക്ക് വേണേൽ നി Search ചെയ്യൂ കാരണം എനിക്ക് വേറെ പണി ഇല്ല😅. മാമനോടെ ഒന്നും തോന്നല്ലെ 😇", show_alert=True)
     try:
         offset = int(offset)
     except:
         offset = 0
     search = BUTTONS.get(key)
     if not search:
-        await query.answer(f"⚠️ Hey, {query.from_user.first_name}! You are using one of my old messages, send the request again ⚠️", show_alert=True)
-        return
+        return await query.answer(f"വിളച്ചിൽ എടുകുന്നോ കുഞ്ഞിപുഴു നിനക്ക് വേണേൽ നി Search ചെയ്യൂ കാരണം എനിക്ക് വേറെ പണി ഇല്ല😅. മാമനോടെ ഒന്നും തോന്നല്ലെ 😇", show_alert=True)
+          return
 
     files, n_offset, total = await get_search_results(search, offset=offset, filter=True)
     try:
@@ -110,20 +110,20 @@ async def next_page(bot, query):
 async def advantage_spoll_choker(bot, query):
     _, user, movie_ = query.data.split('#')
     if int(user) != 0 and query.from_user.id != int(user):
-        return await query.answer(f"⚠️ Hey, {query.from_user.first_name}! Search Your Own File, Don't Click Others Results 😬", show_alert=True)
+        return await query.answer(f"വിളച്ചിൽ എടുകുന്നോ കുഞ്ഞിപുഴു നിനക്ക് വേണേൽ നി Search ചെയ്യൂ കാരണം എനിക്ക് വേറെ പണി ഇല്ല😅. മാമനോടെ ഒന്നും തോന്നല്ലെ 😇", show_alert=True)
     if movie_  == "close_spellcheck":
-        return await query.message.delete()
-    movies = SPELL_CHECK.get(query.message.reply_to_message.message_id)
+        return await query.answer(f"വിളച്ചിൽ എടുകുന്നോ കുഞ്ഞിപുഴു നിനക്ക് വേണേൽ നി Search ചെയ്യൂ കാരണം എനിക്ക് വേറെ പണി ഇല്ല😅. മാമനോടെ ഒന്നും തോന്നല്ലെ 😇", show_alert=True)
+      movies = SPELL_CHECK.get(query.message.reply_to_message.message_id)
     if not movies:
-        return await query.answer(f"⚠️ Hey, {query.from_user.first_name}! You are clicking on an old button which is expired ⚠️", show_alert=True)
-    movie = movies[(int(movie_))]
-    await query.answer('🔎 Checking for Movie in My database... 🔎')
+        return await query.answer(f"വിളച്ചിൽ എടുകുന്നോ കുഞ്ഞിപുഴു നിനക്ക് വേണേൽ നി Search ചെയ്യൂ കാരണം എനിക്ക് വേറെ പണി ഇല്ല😅. മാമനോടെ ഒന്നും തോന്നല്ലെ 😇", show_alert=True)
+     movie = movies[(int(movie_))]
+    await query.answer('🔎 ᴄʜᴇᴄᴋɪɴɢ ғᴏʀ ᴍᴏᴠɪᴇ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ... 🔎')
     files, offset, total_results = await get_search_results(movie, offset=0, filter=True)
     if files:
         k = (movie, files, offset, total_results)
         await auto_filter(bot, query, k)
     else:
-        k = await query.message.edit(f'⚠️ Hey, {query.from_user.first_name}! This Movie Not Found In My DataBase ⚠️')
+        k = await query.message.edit(f'ᴛʜɪs ᴍᴏᴠɪᴇ ɴᴏᴛ ғᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀsᴇ ɪᴛ ɪs ɴᴏᴛ ʀᴇʟᴇᴀsᴇᴅ')
         await asyncio.sleep(10)
         await k.delete()
     
@@ -189,7 +189,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 except:
                     pass
             else:
-                await query.answer(f"⚠️ Hey, {query.from_user.first_name}! That's not for you!! ⚠️",show_alert=True)
+                await query.answer(f"ᴛʜᴀᴛ's ɴᴏᴛ ғᴏʀ ʏᴏᴜ!! ⚠️",show_alert=True)
 
 
     elif "groupcb" in query.data:
@@ -957,7 +957,7 @@ async def advantage_spell_chok(msg):
                 )
             ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="⛔ ᴄʟᴏsᴇ ⛔", callback_data=f'spolling#{user}#close_spellcheck')])
-    m = await msg.reply(f"𝐈 𝐜𝐨𝐮𝐥𝐝𝐧'𝐭 𝐟𝐢𝐧𝐝 𝐚𝐧𝐲𝐭𝐡𝐢𝐧𝐠 𝐫𝐞𝐥𝐚𝐭𝐞𝐝\n𝐭𝐨 𝐭𝐡𝐚𝐭\n𝐃𝐢𝐝 𝐲𝐨𝐮 𝐦𝐞𝐚𝐧 𝐚𝐧𝐲 𝐨𝐧𝐞 𝐨𝐟 𝐭𝐡𝐞𝐬𝐞 👇?\n𝐂𝐥𝐢𝐜𝐤 𝐨𝐧 𝐌𝐨𝐯𝐢𝐞 𝐧𝐚𝐦𝐞 𝐢𝐟 𝐲𝐨𝐮𝐫\n𝐦𝐨𝐯𝐢𝐞 𝐧𝐚𝐦𝐞 𝐨𝐧 𝐛𝐞𝐥𝐨𝐰 𝐥𝐢𝐬𝐭.👇\n\n<b>നിങ്ങൾ ഉദ്ദേശിച്ച മൂവി\nതാഴെ കാണുന്നതിൽ\nഉണ്ടോ?👇.\nഉണ്ടെങ്കിൽ അതിൽ\nക്ലിക്ക്\nചെയ്യുക.\nഇല്ലങ്കിൽ സ്പെല്ലിംഗ്\nഗൂഗിളിൽ നോക്കി\nഒന്നോടെ വർഷവും കൂട്ടി\nടൈപ്പ് ചെയ്യുക👇", reply_markup=InlineKeyboardMarkup(btn))
+    m = await msg.reply(f"ɪ ᴄᴏᴜʟᴅɴ'ᴛ ғɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ\nᴛᴏ ᴛʜᴀᴛ\nᴅɪᴅ ʏᴏᴜ ᴍᴇᴀɴ ᴀɴʏ ᴏɴᴇ ᴏғ ᴛʜᴇsᴇ 👇?\nᴄʟɪᴄᴋ ᴏɴ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ɪғ ʏᴏᴜʀ\nᴍᴏᴠɪᴇ ɴᴀᴍᴇ ᴏɴ ʙᴇʟᴏᴡ ʟɪsᴛ.👇\n\n<b>നിങ്ങൾ ഉദ്ദേശിച്ച മൂവി\nതാഴെ കാണുന്നതിൽ\nഉണ്ടോ?👇.\nഉണ്ടെങ്കിൽ അതിൽ\nക്ലിക്ക്\nചെയ്യുക.\nഇല്ലങ്കിൽ സ്പെല്ലിംഗ്\nഗൂഗിളിൽ നോക്കി\nഒന്നോടെ വർഷവും കൂട്ടി\nടൈപ്പ് ചെയ്യുക👇", reply_markup=InlineKeyboardMarkup(btn))
     await asyncio.sleep(20)
     await m.delete()
 
