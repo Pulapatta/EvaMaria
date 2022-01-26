@@ -45,21 +45,34 @@ async def save_group(bot, message):
             text=f"<b>Thankyou For Adding Me In {message.chat.title} ❣️\n\nIf you have any questions & doubts about using me contact support.</b>",
             reply_markup=reply_markup)
     else:
-        settings = await get_settings(message.chat.id)
-        if settings["welcome"]:
-            for u in message.new_chat_members:
-                buttons = [[
-                InlineKeyboardButton('👉 ⚠️ Press me... 🥰 👈', url="https://t.me/josprojects")
-            ]]
-                if (temp.MELCOW).get('welcome') is not None:
-                    try:
-                        await (temp.MELCOW['welcome']).delete()
-                    except:
-                        pass
-                temp.MELCOW['welcome'] = await message.reply_text(
-                text=f"<b>👋 Hi! {u.mention},</b> Welcome to <b>{message.chat.title}</b>\n\n<b>👇 Official Projects Channels 👇</b>",
-                disable_web_page_preview = True,
-                reply_markup=InlineKeyboardMarkup(buttons))
+        for u in message.new_chat_members:
+            if (temp.MELCOW).get('welcome') is not None:
+                try:
+                    await (temp.MELCOW['welcome']).delete()
+                except:
+                    pass
+            temp.MELCOW['welcome'] = await message.reply(f"<b>Hey , {u.mention}, Welcome to {message.chat.title}</b>")
+
+
+@Client.on_message(filters.command('leave') & filters.user(ADMINS))
+async def leave_a_chat(bot, message):
+    if len(message.command) == 1:
+        return await message.reply('Give me a chat id')
+    chat = message.command[1]
+    try:
+        chat = int(chat)
+    except:
+        chat = chat
+    try:
+        buttons = [[
+            InlineKeyboardButton('Support', url=f'https://t.me/{SUPPORT_CHAT}')
+        ]]
+        reply_markup=InlineKeyboardMarkup(buttons)
+        await bot.send_message(
+            chat_id=chat,
+            text='<b>Hello Friends, \nMy admin has told me to leave from group so i go! If you wanna add me again contact my support group.</b>',
+            reply_markup=reply_markup,
+        )
 
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
