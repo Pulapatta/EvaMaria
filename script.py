@@ -1,16 +1,16 @@
 class Script(object):
-    START_TXT = """👋 𝙷𝙴𝙻𝙾 {}\n\n⎆ 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>\n\n🕵️ 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂,\n\n➕ 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍\n\n👮‍♂ ᴍᴀɪɴᴛᴀɪɴᴇᴅ : <a href='https://t.me/Rafeeq_Kunnimon'>★ ʀᴀғᴇᴇǫ ★</a> """
+    START_TXT = """👋 𝙷𝙴𝙻𝙾 {}\n\n⎆ 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>\n\n🕵️ 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂,\n\n➕ 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍\n\n👮‍♂ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 : <a href='https://t.me/Rafeeq_Kunnimon'>★ 𝚁𝚊𝚏𝚎𝚚 ★</a> """
     HELP_TXT = """👋 ʜᴇʟʟᴏᴡ {}\nʜᴇʀᴇ ɪᴅ ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴍʏ\nᴄᴏᴍᴍᴀɴᴅᴀ."""
     ABOUT_TXT = """<b>🥱 ᴍʏ ɴᴀᴍᴇ : 𝐒𝐡𝐢𝐧𝐨𝐛𝐮 𝐊𝐨𝐜𝐡𝐨 ❤️
-👮‍♂ ᴅᴇᴠʟᴏᴘᴇʀ : <a href='https://t.me/Rafeeq_Kunnimon'>★ ʀᴀғᴇᴇǫ ★</a>
-📚 ʟɪʙʀᴀʀʏ : 𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦
-🖥 ʟᴀɴɢᴜᴀɢᴇ : 𝐏𝐲𝐭𝐡𝐨𝐧 𝟑
-☢️ ᴅᴀᴛᴀ ʙᴀsᴇ : 𝐌𝐨𝐧𝐠𝐨 𝐃𝐛
+👮‍♂ ᴅᴇᴠʟᴏᴘᴇʀ : <a href='https://t.me/Rafeeq_Kunnimon'>★ 𝚁𝚊𝚏𝚎𝚚 ★</a>
+📚 ʟɪʙʀᴀʀʏ : ᴘʀᴏɢʀᴀᴍ
+🖥 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 𝟹
+☢️ ᴅᴀᴛᴀ ʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ
 🏡 ʙᴏᴛ ɢʀᴏᴜᴘ : @MovieRosterGroup </b>"""
     SOURCE_TXT = """<b>NOTE:</b>
 👋<b><i>എന്താടാ മോനെ നോക്കുന്നേ നിനക്ക് ആവശ്യമായിട്ടുള്ളത് ഇവിടെ ഇല്ല 😌
 </i></b>
-<b>👮‍♂ ᴅᴇᴠʟᴏᴘᴇʀ : <a href='https://t.me/Rafeeq_Kunnimon'>★ ʀᴀғᴇᴇǫ ★</a> </b>
+<b>👮‍♂ ᴅᴇᴠʟᴏᴘᴇʀ : <a href='https://t.me/Rafeeq_Kunnimon'>★ 𝚁𝚊𝚏𝚎𝚚 ★</a> </b>
 """
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 - Filter is the feature were users can set automated replies for a particular keyword and Dingdi will respond whenever a keyword is found the message
