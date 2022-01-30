@@ -448,7 +448,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🧾 ᴍᴇᴍᴇs 🧾', callback_data='memes'),
             ],[
             InlineKeyboardButton('🔖 ᴘᴀsᴛᴇ 🔖', callback_data='paste'),
-            InlineKeyboardButton('ᴘᴀssᴡᴏʀᴅ ɢᴇɴ', callback_data='genpassword'),
+            InlineKeyboardButton('📟 ᴘᴀssᴡᴏʀᴅ ɢᴇɴ 📟', callback_data='genpassword'),
             ],[
             InlineKeyboardButton('📌 ᴘɪɴ 📌', callback_data='pin'),
             InlineKeyboardButton('🎧 ᴘᴜʀɢᴇ 🎧', callback_data='purge'),
