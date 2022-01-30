@@ -1,5 +1,5 @@
 class Script(object):
-    START_TXT = """👋 ʜᴇʟʟᴏᴡ {}\n\n⎆ ᴍʏ ɴᴀᴍᴇ ɪs <a href=https://t.me/{}>{}</a>\n\n⎆ ɪ ᴀᴍ ᴀ ᴀᴅᴠᴀɴᴄᴇᴅ ғɪʟᴛᴇʀ ʙᴏᴛ.\n\n🕵️ ɪ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ɪɴ ᴀʟʟ ᴜsᴇʀs\n\n👮‍♂ ᴍᴀɪɴᴛᴀɪɴᴇᴅ : <a href='https://t.me/Rafeeq_Kunnimon'>★ ʀᴀғᴇᴇǫ ★</a> """
+    START_TXT = """👋 𝙷𝙴𝙻𝙾 {}\n\n⎆ 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>\n\n🕵️ 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂,\n\n➕ 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍\n\n👮‍♂ ᴍᴀɪɴᴛᴀɪɴᴇᴅ : <a href='https://t.me/Rafeeq_Kunnimon'>★ ʀᴀғᴇᴇǫ ★</a> """
     HELP_TXT = """👋 ʜᴇʟʟᴏᴡ {}\nʜᴇʀᴇ ɪᴅ ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴍʏ\nᴄᴏᴍᴍᴀɴᴅᴀ."""
     ABOUT_TXT = """<b>🥱 ᴍʏ ɴᴀᴍᴇ : 𝐒𝐡𝐢𝐧𝐨𝐛𝐮 𝐊𝐨𝐜𝐡𝐨 ❤️
 👮‍♂ ᴅᴇᴠʟᴏᴘᴇʀ : <a href='https://t.me/Rafeeq_Kunnimon'>★ ʀᴀғᴇᴇǫ ★</a>
