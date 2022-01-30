@@ -22,25 +22,15 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [[
- 
             InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ➕', url='http://t.me/Movie_Roster_Bot?startgroup=true
-
             ],[
-
             InlineKeyboardButton('✨ ᴡᴏʀᴋɪɴɢ ɢʀᴏᴜᴘ ✨', url='https://t.me/MovieRosterGroup')
-
             ],[
-
             InlineKeyboardButton('🕵‍♂ ᴅᴇᴠᴇʟᴏᴘᴇʀ 🕵‍♂', url='https://t.me/Rafeeq_Kunnimon'),
-
             InlineKeyboardButton('❤️ sᴜᴘᴘᴏʀᴛ ❤️', url='https://t.me/MovieRosterOfficial')
-
             ],[
-
             InlineKeyboardButton('📚 ʜᴇʟᴘ 📚', callback_data='help'),
-
             InlineKeyboardButton('🔰 ᴀʙᴏᴜᴛ 🔰', callback_data='about')
-
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(Script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
@@ -55,25 +45,15 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, Script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
- 
             InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ➕', url='http://t.me/Movie_Roster_Bot?startgroup=true
-
             ],[
-
             InlineKeyboardButton('✨ ᴡᴏʀᴋɪɴɢ ɢʀᴏᴜᴘ ✨', url='https://t.me/MovieRosterGroup')
-
             ],[
-
             InlineKeyboardButton('🕵‍♂ ᴅᴇᴠᴇʟᴏᴘᴇʀ 🕵‍♂', url='https://t.me/Rafeeq_Kunnimon'),
-
             InlineKeyboardButton('❤️ sᴜᴘᴘᴏʀᴛ ❤️', url='https://t.me/MovieRosterOfficial')
-
             ],[
-
             InlineKeyboardButton('📚 ʜᴇʟᴘ 📚', callback_data='help'),
-
             InlineKeyboardButton('🔰 ᴀʙᴏᴜᴛ 🔰', callback_data='about')
-
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -115,25 +95,15 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
- 
             InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ➕', url='http://t.me/Movie_Roster_Bot?startgroup=true
-
             ],[
-
             InlineKeyboardButton('✨ ᴡᴏʀᴋɪɴɢ ɢʀᴏᴜᴘ ✨', url='https://t.me/MovieRosterGroup')
-
             ],[
-
             InlineKeyboardButton('🕵‍♂ ᴅᴇᴠᴇʟᴏᴘᴇʀ 🕵‍♂', url='https://t.me/Rafeeq_Kunnimon'),
-
             InlineKeyboardButton('❤️ sᴜᴘᴘᴏʀᴛ ❤️', url='https://t.me/MovieRosterOfficial')
-
             ],[
-
             InlineKeyboardButton('📚 ʜᴇʟᴘ 📚', callback_data='help'),
-
             InlineKeyboardButton('🔰 ᴀʙᴏᴜᴛ 🔰', callback_data='about')
-
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
