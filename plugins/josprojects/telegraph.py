@@ -57,10 +57,10 @@ async def telegraph(client, message):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="open link", url=f"https://telegra.ph{response[0]}"),
-                    InlineKeyboardButton(text="share link", url=f"https://telegram.me/share/url?url=https://telegra.ph{response[0]}")
+                    InlineKeyboardButton(text="📖 ᴏᴘᴇɴ ʟɪɴᴋ 📖", url=f"https://telegra.ph{response[0]}"),
+                    InlineKeyboardButton(text="⭕ sʜᴀʀᴇ ʟɪɴᴋ ⭕", url=f"https://telegram.me/share/url?url=https://telegra.ph{response[0]}")
                 ],
-                [InlineKeyboardButton(text="✗ Close ✗", callback_data="close_data")]
+                [InlineKeyboardButton(text="⛔ ᴄʟᴏsᴇ ⛔", callback_data="close_data")]
             ]
         )
     )
