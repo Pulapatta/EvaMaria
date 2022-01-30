@@ -440,26 +440,29 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('👮‍♂ ᴀᴅᴍɪɴ 👮‍♂', callback_data='admin'),
             InlineKeyboardButton('🔌 ᴄᴏɴɴᴇᴄᴛ 🔌', callback_data='coct'),
-            InlineKeyboardButton('🖥️ ғɪʟᴛᴇʀs 🖥️', callback_data='auto_manual'),
             ],[
+            InlineKeyboardButton('🖥️ ғɪʟᴛᴇʀs 🖥️', callback_data='auto_manual'),      
             InlineKeyboardButton('🖨️ ɢᴛʀᴀɴs 🖨️', callback_data='gtrans'),
+            ],[
             InlineKeyboardButton('ℹ️ ɪɴғᴏ ℹ️', callback_data='info'),
             InlineKeyboardButton('🧾 ᴍᴇᴍᴇs 🧾', callback_data='memes'),
             ],[
             InlineKeyboardButton('🔖 ᴘᴀsᴛᴇ 🔖', callback_data='paste'),
             InlineKeyboardButton('ᴘᴀssᴡᴏʀᴅ ɢᴇɴ', callback_data='genpassword'),
-            InlineKeyboardButton('📌 ᴘɪɴ 📌', callback_data='pin'),
             ],[
+            InlineKeyboardButton('📌 ᴘɪɴ 📌', callback_data='pin'),
             InlineKeyboardButton('🎧 ᴘᴜʀɢᴇ 🎧', callback_data='purge'),
+            ],[
             InlineKeyboardButton('🎯 ʀᴇsᴛʀɪᴄ 🎯', callback_data='restric'),
             InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ 🔍', callback_data='search'),
             ],[
-            InlineKeyboardButton('⭕ sʜᴀʀᴇ ᴛᴇxᴛ', callback_data='sharetext'),
+            InlineKeyboardButton('⭕ sʜᴀʀᴇ ᴛᴇxᴛ ⭕', callback_data='sharetext'),
             InlineKeyboardButton('🎶 ᴍᴜsɪᴄ 🎶', callback_data='music'),
-            InlineKeyboardButton('🎵 ᴛᴛ-sᴘᴇᴇᴄʜ', callback_data='tts'),
             ],[
+            InlineKeyboardButton('🎵 ᴛᴛ-sᴘᴇᴇᴄʜ 🎵', callback_data='tts'),
             InlineKeyboardButton('📋 ᴛɢʀᴀᴘʜ 📋', callback_data='tgraph'),
-            InlineKeyboardButton('ᴛᴇxᴛ sʜᴏʀᴛɴᴇʀ', callback_data='shortner'),
+            ],[
+            InlineKeyboardButton('🔸 ᴛᴇxᴛ sʜᴏʀᴛɴᴇʀ 🔹', callback_data='shortner'),
             InlineKeyboardButton('🧟 ᴢᴏᴍʙɪᴇs 🧟', callback_data='zombies'),
             ],[
             InlineKeyboardButton('✖️ ʙᴀᴄᴋ ✖️', callback_data='start')
