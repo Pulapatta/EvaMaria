@@ -419,25 +419,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
- 
             InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ➕', url='http://t.me/Movie_Roster_Bot?startgroup=true
-
             ],[
-
             InlineKeyboardButton('✨ ᴡᴏʀᴋɪɴɢ ɢʀᴏᴜᴘ ✨', url='https://t.me/MovieRosterGroup')
-
             ],[
-
             InlineKeyboardButton('🕵‍♂ ᴅᴇᴠᴇʟᴏᴘᴇʀ 🕵‍♂', url='https://t.me/Rafeeq_Kunnimon'),
-
             InlineKeyboardButton('❤️ sᴜᴘᴘᴏʀᴛ ❤️', url='https://t.me/MovieRosterOfficial')
-
             ],[
-
             InlineKeyboardButton('📚 ʜᴇʟᴘ 📚', callback_data='help'),
-
             InlineKeyboardButton('🔰 ᴀʙᴏᴜᴛ 🔰', callback_data='about')
-
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
