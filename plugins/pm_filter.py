@@ -513,6 +513,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
+        await query.message.edit_text(
             text=Script.SOURCE_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -527,6 +536,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
+        await query.message.edit_text(
             text=Script.MANUALFILTER_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -538,6 +556,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
+        await query.message.edit_text(
             text=Script.BUTTON_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -548,6 +575,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('✖️ ʙᴀᴄᴋ ✖️', callback_data='auto_manual')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
         await query.message.edit_text(
             text=Script.AUTOFILTER_TXT,
             disable_web_page_preview=True,
@@ -564,6 +600,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
+        await query.message.edit_text(
             text=Script.AUTO_MANUAL_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -574,6 +619,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('✖️ ʙᴀᴄᴋ ✖️', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
         await query.message.edit_text(
             text=Script.CONNECTION_TXT,
             disable_web_page_preview=True,
@@ -587,6 +641,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
+        await query.message.edit_text(
             text=Script.PASTE_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -597,6 +660,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('✖️ ʙᴀᴄᴋ ✖️', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
         await query.message.edit_text(
             text=Script.TGRAPH_TXT,
             disable_web_page_preview=True,
@@ -609,6 +681,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
+        await query.message.edit_text(
             text=Script.INFO_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -619,6 +700,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('✖️ ʙᴀᴄᴋ ✖️', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
         await query.message.edit_text(
             text=Script.SEARCH_TXT,
             disable_web_page_preview=True,
@@ -632,6 +722,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
+        await query.message.edit_text(
             text=Script.GTRANS_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -642,6 +741,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('✖️ ʙᴀᴄᴋ ✖️', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
         await query.message.edit_text(
             text=Script.ADMIN_TXT,
             disable_web_page_preview=True,
@@ -654,6 +762,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
+        await query.message.edit_text(
             text=Script.ZOMBIES_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -664,6 +781,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('✖️ ʙᴀᴄᴋ ✖️', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
         await query.message.edit_text(
             text=Script.PURGE_TXT,
             disable_web_page_preview=True,
@@ -676,6 +802,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
+        await query.message.edit_text(
             text=Script.RESTRIC_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -686,6 +821,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('✖️ ʙᴀᴄᴋ ✖️', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
         await query.message.edit_text(
             text=Script.MEMES_TXT,
             disable_web_page_preview=True,
@@ -698,6 +842,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
+        await query.message.edit_text(
             text=Script.URL_SHORTNER_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -708,6 +861,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('✖️ ʙᴀᴄᴋ ✖️', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
         await query.message.edit_text(
             text=Script.TTS_TXT,
             disable_web_page_preview=True,
@@ -720,6 +882,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
+        await query.message.edit_text(
             text=Script.PIN_MESSAGE_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -730,6 +901,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('✖️ ʙᴀᴄᴋ ✖️', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
         await query.message.edit_text(
             text=Script.MUSIC_TXT,
             disable_web_page_preview=True,
@@ -742,6 +922,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
+        await query.message.edit_text(
             text=Script.PASSWORD_GEN_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -753,6 +942,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
+        await query.message.edit_text(
             text=Script.SHARE_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -763,6 +961,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('✖️ ʙᴀᴄᴋ ✖️', callback_data='manualfilter')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )
         await query.message.edit_text(
             text=Script.FILLINGS_TXT,
             disable_web_page_preview=True,
