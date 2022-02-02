@@ -12,17 +12,7 @@ class Script(object):
 </i></b>
 <b>👮‍♂ ᴅᴇᴠʟᴏᴘᴇʀ : <a href='https://t.me/Rafeeq_Kunnimon'>★ 𝚁𝚊𝚏𝚎𝚚 ★</a> </b>
 """
-    await query.message.edit_text(
-            text="▣▢▢"
-        )
-        await query.message.edit_text(
-            text="▣▣▢"
-        )
-        await query.message.edit_text(
-            text="▣▣▣"
-        )
-
-MANUALFILTER_TXT = """Help: <b>Filters</b>
+    MANUALFILTER_TXT = """Help: <b>Filters</b>
 - Filter is the feature were users can set automated replies for a particular keyword and Dingdi will respond whenever a keyword is found the message
 <b>NOTE:</b>
 1. IMDb should have admin privillage.
