@@ -1,6 +1,14 @@
 class Script(object):
     START_TXT = """👋 𝙷𝙴𝙻𝙾 {}\n\n⎆ 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>\n\n🕵️ 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂,\n\n➕ 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍\n\n👮‍♂ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 : <a href='https://t.me/Rafeeq_Kunnimon'>★ 𝚁𝚊𝚏𝚎𝚚 ★</a> """
-    HELP_TXT = """👋 ʜᴇʟʟᴏᴡ {}\nʜᴇʀᴇ ɪᴅ ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴍʏ\nᴄᴏᴍᴍᴀɴᴅᴀ."""
+    HELP_TXT = """await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣"
+        )👋 ʜᴇʟʟᴏᴡ {}\nʜᴇʀᴇ ɪᴅ ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴍʏ\nᴄᴏᴍᴍᴀɴᴅᴀ."""
     ABOUT_TXT = """<b>🥱 ᴍʏ ɴᴀᴍᴇ : 𝐒𝐡𝐢𝐧𝐨𝐛𝐮 𝐊𝐨𝐜𝐡𝐨 ❤️
 👮‍♂ ᴅᴇᴠʟᴏᴘᴇʀ : <a href='https://t.me/Rafeeq_Kunnimon'>★ 𝚁𝚊𝚏𝚎𝚚 ★</a>
 📚 ʟɪʙʀᴀʀʏ : ᴘʀᴏɢʀᴀᴍ
